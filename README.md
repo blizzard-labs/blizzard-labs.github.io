@@ -7,6 +7,9 @@ Neuroscience | Cortical Circuit Dynamics
 Computer Science | SNNs & Unsupervised Learning
 Dynamical Systems | Signal Processing
 Kart Racing | Tractographic Reconstruction
- 
 
-## My Interests and Skills
+![tractogram banner](assets/img/tractogram1.png)
+
+## Projects / Publications
+
+## Awards & Experience
