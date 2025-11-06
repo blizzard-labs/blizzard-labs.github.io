@@ -1,5 +1,5 @@
 # blizzard-labs.github.io
-# Theoretical Neuroscience
+Theoretical Neuroscience
 
 ### Education 
 abc
