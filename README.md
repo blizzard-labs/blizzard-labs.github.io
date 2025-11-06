@@ -8,7 +8,7 @@ Computer Science | SNNs & Unsupervised Learning
 Dynamical Systems | Signal Processing
 Kart Racing | Tractographic Reconstruction
 
-![tractogram banner](assets/img/tractogram1.png)
+![tractogram banner](assets/img/tractogram3.png)
 
 ## Projects / Publications
 
