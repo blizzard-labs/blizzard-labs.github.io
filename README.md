@@ -1,8 +1,12 @@
-# blizzard-labs.github.io
-Theoretical Neuroscience
+# Project Portfolio
+This is my project portfolio. My dream is that all people will be enabled with the independence to fully live their lives.
 
-### Education 
-abc
+My Interests | Cool Skills 
+:---:|:---:
+Neuroscience | Cortical Circuit Dynamics
+Computer Science | SNNs & Unsupervised Learning
+Dynamical Systems | Signal Processing
+Kart Racing | Tractographic Reconstruction
+ 
 
-### Something else
-def
+## My Interests and Skills
