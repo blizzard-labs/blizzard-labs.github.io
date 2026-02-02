@@ -143,12 +143,15 @@ Spoke at multiple TEDx keynote events and symposiums regarding topics revolving 
 
 ## Education
 ### BASIS Independent Silicon Valley High School
-**GPA & Testing:** 4.75 (weighted, unranked), 4.0 UW, 1570 SAT
-**Major Course Load:** AP Calculus BC, AP Calculus AB, AP Computer
+- **GPA & Testing:** 4.75 (weighted, unranked), 4.0 UW, 1570 SAT
+- **Major Course Load:** AP Calculus BC, AP Calculus AB, AP Computer
 Science A, AP Biology, AP Physics C, AP Statistics, AP Psychology, AP
 Physics I, AP Environmental Science, AP English Language, AP English
 Literature, AP US History, AP US Government, AP Macroeconomics,
 AP Microeconomics, AP World History
+
+## Recent Books / Lecture Series
+
 
 ## Photo Gallery
 
