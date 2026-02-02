@@ -127,7 +127,7 @@ All PTs receive a stipend per active therapy hour, paid regularly during your te
 
 As Prabha is beginning our mission of making compassionate care available to all, we hope to establish a pilot program through the summer of 2025 to prove the feasibility of our initiative. This will help us with funding and expansion for the future. For this pilot program, we hope to onboard a limited number of student physiotherapists to care for hand-selected patients. Due to the nature of this program, we will only be able to provide limited license certification. However, we will be flexible to time commitments and provide consistent stipends. More details about the operations for our pilot program will be discussed after submitting your interest [here](https://forms.gle/HMwgVYpdM4ZxseK3A).
 
-
+![prabha poster](assets/img/prabha_volunteers.png)
 ## Awards
 
 **Science Fair:**
