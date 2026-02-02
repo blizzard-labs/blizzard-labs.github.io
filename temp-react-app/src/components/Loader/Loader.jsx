@@ -59,7 +59,7 @@ const Loader = ({ onLoadComplete }) => {
             </div>
 
             <div className="loader-footer">
-              <span>Preparing exhibition</span>
+              <span></span>
             </div>
           </div>
         </motion.div>
