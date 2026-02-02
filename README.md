@@ -187,7 +187,10 @@ Literature, AP US History, AP US Government, AP Macroeconomics,
 AP Microeconomics, AP World History
 
 ## Recent Books / Lecture Series
-
+1. [_Dynamical Systems in Neuroscience: The Geometry of Excitability and Bursting_]([url](https://direct.mit.edu/books/monograph/2589/Dynamical-Systems-in-NeuroscienceThe-Geometry-of)) by Eugene M. Izhikevich
+2. [_Nonlinear Dynamics and Chaos_](https://www.biodyn.ro/course/literatura/Nonlinear_Dynamics_and_Chaos_2018_Steven_H._Strogatz.pdf) by Steven H. Strogatz
+3. [_Engineering Math: Differential Equations and Dynamical Systems_](https://youtube.com/playlist?list=PLMrJAkhIeNNTYaOnVI3QpH7jgULnAmvPA&si=E9uJyBym2oLrUKdk) by Steve Brunton
+4. [_Videos Documentaries by Artem Kirsanov_](https://www.youtube.com/@ArtemKirsanov)
 
 ## Photo Gallery
 ![gallery image](assets/img/gallery/candlelight.jpeg)
