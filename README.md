@@ -34,6 +34,7 @@ The purpose of this work was to design and implement a comprehensive evaluation 
 [Insert Images here]
 
 #### Resources:
+- **Publication:** _Forthcoming, Oxford Press_
 - **Github Repo:** [https://github.com/blizzard-labs/phylo-mcmc-evaluation](https://github.com/blizzard-labs/phylo-mcmc-evaluation)
 - **Project Report:** [https://drive.google.com/file/d/1ch-W26xjg0PbhFo8QuBGvkchhoeWDRs0/preview](https://drive.google.com/file/d/1ch-W26xjg0PbhFo8QuBGvkchhoeWDRs0/preview)
 - **Project Proposal:** [https://docs.google.com/document/d/1KL2TiRQIa24yCigaRSZ2z2lLPYo_lPbwzhAoLqaPTOw/preview](https://docs.google.com/document/d/1KL2TiRQIa24yCigaRSZ2z2lLPYo_lPbwzhAoLqaPTOw/preview)
@@ -89,6 +90,8 @@ My project has a goal of making children less prone to obesity by reducing the a
 - **Project Poster**: [https://drive.google.com/file/d/1H4tsudnYg4-o26NanthVHXAIR48T0lyM/preview](https://drive.google.com/file/d/1H4tsudnYg4-o26NanthVHXAIR48T0lyM/preview)
 - **Project Video:** [https://youtu.be/uDxKYNIIAQ0](https://youtu.be/uDxKYNIIAQ0)
 
+## Non-Profit Work: Prabha
+
 ## Awards
 
 **Science Fair:**
@@ -137,4 +140,15 @@ Spoke at multiple TEDx keynote events and symposiums regarding topics revolving 
 - **TEDxBISV ‘25**: Big Ideas, Little Time: The Science of Powerful Pitches [YouTube, Event Page]
 - **NorCal JSHS ‘25**: MesoNet– Optimizing SNNs
 - **TEDxBISV ‘24**: The Missing Steps to the Big Picture (And How to Find Them) [YouTube, Event Page]
+
+## Education
+### BASIS Independent Silicon Valley High School
+**GPA & Testing:** 4.75 (weighted, unranked), 4.0 UW, 1570 SAT
+**Major Course Load:** AP Calculus BC, AP Calculus AB, AP Computer
+Science A, AP Biology, AP Physics C, AP Statistics, AP Psychology, AP
+Physics I, AP Environmental Science, AP English Language, AP English
+Literature, AP US History, AP US Government, AP Macroeconomics,
+AP Microeconomics, AP World History
+
+## Photo Gallery
 
