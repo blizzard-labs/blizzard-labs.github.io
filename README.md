@@ -23,8 +23,8 @@ The broader motivation is twofold:
 [Insert images here]
 
 #### Resources:
-**Github Repo:** [https://github.com/blizzard-labs/thalis-eeg-control](https://github.com/blizzard-labs/thalis-eeg-control)
-**Project Proposal:** [https://docs.google.com/document/d/135vfImX9XZffEkq6f2IK6FvMbcDsl175/preview](https://docs.google.com/document/d/135vfImX9XZffEkq6f2IK6FvMbcDsl175/preview)
+- **Github Repo:** [https://github.com/blizzard-labs/thalis-eeg-control](https://github.com/blizzard-labs/thalis-eeg-control)
+- **Project Proposal:** [https://docs.google.com/document/d/135vfImX9XZffEkq6f2IK6FvMbcDsl175/preview](https://docs.google.com/document/d/135vfImX9XZffEkq6f2IK6FvMbcDsl175/preview)
 
 ### [2025] ReconBench: A Phylogenetic MCMC Benchmark
 Reconstructing ancestral sequence histories is a cornerstone of evolutionary biology, providing insight into the mechanisms of molecular evolution, protein function, and phylogenetic relationships. Accurate ancestral inference requires not only modeling substitutions but also realistically accounting for insertions and deletions (indels), which complicate both alignment and tree estimation. While tools such as Historian have been developed to jointly reconstruct alignments and ancestral states under probabilistic models, systematic benchmarking across diverse evolutionary scenarios remains limited.
@@ -34,10 +34,10 @@ The purpose of this work was to design and implement a comprehensive evaluation 
 [Insert Images here]
 
 #### Resources:
-**Github Repo:** [https://github.com/blizzard-labs/phylo-mcmc-evaluation](https://github.com/blizzard-labs/phylo-mcmc-evaluation)
-**Project Report:** [https://drive.google.com/file/d/1ch-W26xjg0PbhFo8QuBGvkchhoeWDRs0/preview](https://drive.google.com/file/d/1ch-W26xjg0PbhFo8QuBGvkchhoeWDRs0/preview)
-**Project Proposal:** [https://docs.google.com/document/d/1KL2TiRQIa24yCigaRSZ2z2lLPYo_lPbwzhAoLqaPTOw/preview](https://docs.google.com/document/d/1KL2TiRQIa24yCigaRSZ2z2lLPYo_lPbwzhAoLqaPTOw/preview)
-**Modified Historian:** [https://github.com/blizzard-labs/historian-mod](https://github.com/blizzard-labs/historian-mod)
+- **Github Repo:** [https://github.com/blizzard-labs/phylo-mcmc-evaluation](https://github.com/blizzard-labs/phylo-mcmc-evaluation)
+- **Project Report:** [https://drive.google.com/file/d/1ch-W26xjg0PbhFo8QuBGvkchhoeWDRs0/preview](https://drive.google.com/file/d/1ch-W26xjg0PbhFo8QuBGvkchhoeWDRs0/preview)
+- **Project Proposal:** [https://docs.google.com/document/d/1KL2TiRQIa24yCigaRSZ2z2lLPYo_lPbwzhAoLqaPTOw/preview](https://docs.google.com/document/d/1KL2TiRQIa24yCigaRSZ2z2lLPYo_lPbwzhAoLqaPTOw/preview)
+- **Modified Historian:** [https://github.com/blizzard-labs/historian-mod](https://github.com/blizzard-labs/historian-mod)
 
 ### [2025] HomeBuilt: Your DIY Home Improvement Partner
 Remodeling outdoor spaces is challenging for homeowners, while hiring contractors is costly and uncertain. Meanwhile, small hardware stores struggle to compete with larger chains, leaving them with unsold stock. Our solution is the HomeBuilt app, an easy method for users to create their own customized projects with curated materials and instructions. After choosing a starter project from HomeBuilt’s extensive library of different designs, users can use Benji, our  AI assistant, to customize their design to perfection. We will provide the following customizable renovation options: Fencing, tiling, pet-houses, sheds, doors, landscaping, carpentry, and other projects. After the DIY  design has been completed, HomeBuilt will take it a step further than traditional AR home design apps and provide materials and an easy-to-follow instruction manual. The materials will be sourced from local hardware suppliers that HomeBuilt will partner with, giving them business and a larger market reach.
@@ -45,10 +45,10 @@ Remodeling outdoor spaces is challenging for homeowners, while hiring contractor
 [Insert Images here]
 
 #### Resources: 
-**Launch Writeup:** [https://drive.google.com/file/d/1K063vRwWWBMYVAiNsq_a-sU5c8eeiPUm/preview](https://drive.google.com/file/d/1K063vRwWWBMYVAiNsq_a-sU5c8eeiPUm/preview)
-**Video Pitch:** [https://youtu.be/yTSA3R-rAMo](https://youtu.be/yTSA3R-rAMo)
-**Customer Testimonials:** [https://drive.google.com/file/d/1EJ36i9EDGFnBcR54bqFN0lnPjuB8OVlu/preview](https://drive.google.com/file/d/1EJ36i9EDGFnBcR54bqFN0lnPjuB8OVlu/preview)
-**Projected Financials:** [https://drive.google.com/file/d/135MnpNRTZMCb0eRc79KxdawN26TGmKgo/preview](https://drive.google.com/file/d/135MnpNRTZMCb0eRc79KxdawN26TGmKgo/preview)
+- **Launch Writeup:** [https://drive.google.com/file/d/1K063vRwWWBMYVAiNsq_a-sU5c8eeiPUm/preview](https://drive.google.com/file/d/1K063vRwWWBMYVAiNsq_a-sU5c8eeiPUm/preview)
+- **Video Pitch:** [https://youtu.be/yTSA3R-rAMo](https://youtu.be/yTSA3R-rAMo)
+- **Customer Testimonials:** [https://drive.google.com/file/d/1EJ36i9EDGFnBcR54bqFN0lnPjuB8OVlu/preview](https://drive.google.com/file/d/1EJ36i9EDGFnBcR54bqFN0lnPjuB8OVlu/preview)
+- **Projected Financials:** [https://drive.google.com/file/d/135MnpNRTZMCb0eRc79KxdawN26TGmKgo/preview](https://drive.google.com/file/d/135MnpNRTZMCb0eRc79KxdawN26TGmKgo/preview)
 
 ### [2025] MesoNet: Optimizing Spiking Neural Networks with Dynamic Saddle Distributions
 Artificial neural network (ANN) clustering algorithms require hundreds of watts, considerably  limiting their abilities across numerous energy-critical applications. A developing technology, spik-  ing neural networks (SNNs) offer a promising alternative, requiring mere milliwatts by mimicking  biological neurons on neuromorphic chips. However, the prevalent spike-timing-dependent-  plasticity (STDP) learning rule struggles to scale for practical tasks, reducing accuracy by up to  40% compared to ANNs. This paper addresses these challenges with a two-step approach: mathe-  matically investigating SNN learning behavior with dynamical systems theory, before developing  an algorithm for improved generalization. We identify an optimal learning regime at the edge of  chaos and introduce two algorithms- variable plasticity and triangulated attribution- maintaining  these optimal learning conditions. Notably, these mechanisms dynamical form and annihilate  saddle points to enhance representations. Implemented in a split-and-merge architecture, our  network MesoNet implements these algorithms to achieve performative improvements in accuracy  and information retention.
@@ -56,11 +56,11 @@ Artificial neural network (ANN) clustering algorithms require hundreds of watts,
 [Insert Images here]
 
 #### Resources:
-**Preprint:** [https://doi.org/10.5281/zenodo.17771306](https://doi.org/10.5281/zenodo.17771306)
-**Github Repo:** [https://github.com/blizzard-labs/NMCtests](https://github.com/blizzard-labs/NMCtests)
-**Video Presentation:** [https://youtu.be/4yPmUsaXKY0](https://youtu.be/4yPmUsaXKY0)
-**Poster Presentation:** [https://drive.google.com/file/d/1kDdw0U7FfciGSA6t0wHDR0jmJ54sKUvg/preview](https://drive.google.com/file/d/1kDdw0U7FfciGSA6t0wHDR0jmJ54sKUvg/preview)
-**Project Journal:** [https://drive.google.com/file/d/1tlKrL9USkRzOWsZpzvfb4f4PNb1Pr5h_/preview](https://drive.google.com/file/d/1tlKrL9USkRzOWsZpzvfb4f4PNb1Pr5h_/preview)
+- **Preprint:** [https://doi.org/10.5281/zenodo.17771306](https://doi.org/10.5281/zenodo.17771306)
+- **Github Repo:** [https://github.com/blizzard-labs/NMCtests](https://github.com/blizzard-labs/NMCtests)
+- **Video Presentation:** [https://youtu.be/4yPmUsaXKY0](https://youtu.be/4yPmUsaXKY0)
+- **Poster Presentation:** [https://drive.google.com/file/d/1kDdw0U7FfciGSA6t0wHDR0jmJ54sKUvg/preview](https://drive.google.com/file/d/1kDdw0U7FfciGSA6t0wHDR0jmJ54sKUvg/preview)
+- **Project Journal:** [https://drive.google.com/file/d/1tlKrL9USkRzOWsZpzvfb4f4PNb1Pr5h_/preview](https://drive.google.com/file/d/1tlKrL9USkRzOWsZpzvfb4f4PNb1Pr5h_/preview)
 
 ### [2024] TractX: A Density-Aware Streamline Exclusion System for Accurate White Matter Reconstruction
 White matter tractography is a non-invasive diffusion-imaging tool essential to analyzing brain connectivity; it is the most prevalent system for pre-operative and research-based analysis. However, it faces challenges from erroneous methodologies ignoring bottleneck regions where multiple white matter bundles converge before diverging. This results in false-positive paths in around ~70% of voxels (3D MRI pixels) and an exceedingly low precision of ~23%. TractX aims to resolve bottlenecks through a three-part pipeline of systematic identification and alteration utilizing a novel nerve-density-analysis architecture. The prototype initially conducts Constrained Spherical Deconvolution (CSD) on 1mm dMRI images to produce a field orientation distribution (FOD) of individual voxels. The FOD is then parsed to a bottleneck identification system in which fiber-vectors assigned to multiple bundles are extracted alongside relevant data, including fiber-density and associated voxels. Next, the data is transformed into a feature vector representing selectively weighted characteristics of the bottleneck through a linear regression model trained with gradient descent. An Approximate Nearest Neighbors procedure deconstructs the vector into a low-dimensional space before streamlines are associated by distance in the vector space. Finally, TractX regenerates bottlenecks through CSD, connecting in and out fibers. After comparison against HCP-based ground truth datasets, the TractX pipeline produced a recall of 94.52% and a precision of 72.83%. The novel architecture demonstrated an unprecedented and phenomenal gain in precision score, 216.15% higher than current state-of-the-art pipelines. Accessed through command-line interface, TractX has great promise for improving tractography results and reliability by over two-hundred-fold across innumerable applications.
@@ -68,8 +68,8 @@ White matter tractography is a non-invasive diffusion-imaging tool essential to 
 [Insert pictures here]
 
 #### Resources:
-**Github Repo:** [https://github.com/blizzard-labs/tractx-no-maps](https://github.com/blizzard-labs/tractx-no-maps)
-**Poster Presentation:** [https://drive.google.com/file/d/1msfSQkJJBQ3r8podPtQThE3YrCb9IFjb/preview](https://drive.google.com/file/d/1msfSQkJJBQ3r8podPtQThE3YrCb9IFjb/preview)
+- **Github Repo:** [https://github.com/blizzard-labs/tractx-no-maps](https://github.com/blizzard-labs/tractx-no-maps)
+- **Poster Presentation:** [https://drive.google.com/file/d/1msfSQkJJBQ3r8podPtQThE3YrCb9IFjb/preview](https://drive.google.com/file/d/1msfSQkJJBQ3r8podPtQThE3YrCb9IFjb/preview)
 
 ### [2023] Balancerator: A Wearable for Active Prevention of Falls Through GRU-based Gyroscopic Inference and Center of Mass Manipulation
 Freezing of gait along with balance dysfunctions is a widespread cause of severe injuries worldwide, making them one of the largest causes of fatality for elderlies above 65. The project’s goal is to lower falling rates for individuals with balancing dysfunctions without weakening brain-muscle activations, an effect of other walking aids. My prototype is an Arduino UNO-controlled wearable, which manipulates the user’s center of mass (CoM) with 1.8-kilogram weights on each side based upon their inclination, captured by a gyroscope. The prototype is interfaced through a mobile app with emergency contact capabilities and walking pattern trends for doctors. Various hardware models were developed through iteration with the final design being optimized for equally distributed load, battery life longevity, and maximum CoM displacement. Various software models were also developed to eliminate gyroscopic noise and to determine the state of the user. In the final iteration, Kalman filtration was utilized alongside Gaussian Motion and Bayes’ theorem to compare the prediction and update curve of the gyroscope to remove noise. In addition to this, a Recurrent Neural Network variant, the Gated Recurrent Unit (GRU), was trained through stochastic gradient descent to classify the position of the user as walking, standing, or unbalanced. After an overall 1,400 data points were collected, the gyroscope had 93.3% less bias, the GRU had an F1-score of 0.9369, and the device had a 70.5% lower fall rate than without it. The device has great potential to reduce falling rates without adverse effects.
@@ -77,15 +77,17 @@ Freezing of gait along with balance dysfunctions is a widespread cause of severe
 [Insert pictures here]
 
 #### Resources:
-**Project Spotlight:** [https://www.societyforscience.org/jic/2023-student-finalists/krishna-bhatt/](https://www.societyforscience.org/jic/2023-student-finalists/krishna-bhatt/)
-**Video Presentation:** [https://youtu.be/ve8pqWtbBm0](https://youtu.be/ve8pqWtbBm0)
-**Project Poster:** [https://drive.google.com/file/d/162AHb5D_bjp-7TEQn_o3OxmyVhgVhEBL/preview](https://drive.google.com/file/d/162AHb5D_bjp-7TEQn_o3OxmyVhgVhEBL/preview)
-**Github Repo:** [https://github.com/blizzard-labs/balancerator](https://github.com/blizzard-labs/balancerator)
+- **Project Spotlight:** [https://www.societyforscience.org/jic/2023-student-finalists/krishna-bhatt/](https://www.societyforscience.org/jic/2023-student-finalists/krishna-bhatt/)
+- **Video Presentation:** [https://youtu.be/ve8pqWtbBm0](https://youtu.be/ve8pqWtbBm0)
+- **Project Poster:** [https://drive.google.com/file/d/162AHb5D_bjp-7TEQn_o3OxmyVhgVhEBL/preview](https://drive.google.com/file/d/162AHb5D_bjp-7TEQn_o3OxmyVhgVhEBL/preview)
+- **Github Repo:** [https://github.com/blizzard-labs/balancerator](https://github.com/blizzard-labs/balancerator)
 
 ### [2022] Cookie dispenser: A Device to Limit Obesity
+My project has a goal of making children less prone to obesity by reducing the amount of calories children consume each day. I went about it by creating a child-friendly cookie dispenser which dispenses one cookie everyday. I added a bluetooth module and created an application so it could be controlled through a smartphone. The prototype overcame all of the success criteria with 100% accuracy. It also overcame my project constraints of budget, materials, and time. This design has scope to greatly reduce obesity rates. However it has to be mass produced and adopted by households across the U.S.
 
-
-### [2021] TheInvaders: A Text-Based Space Adventure
+#### Resources:
+- **Project Poster**: [https://drive.google.com/file/d/1H4tsudnYg4-o26NanthVHXAIR48T0lyM/preview](https://drive.google.com/file/d/1H4tsudnYg4-o26NanthVHXAIR48T0lyM/preview)
+- **Project Video:** [https://youtu.be/uDxKYNIIAQ0](https://youtu.be/uDxKYNIIAQ0)
 
 ## Awards
 
