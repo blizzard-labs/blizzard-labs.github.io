@@ -154,4 +154,35 @@ AP Microeconomics, AP World History
 
 
 ## Photo Gallery
+![gallery image](assets/img/gallery/candlelight.jpeg)
+
+![gallery image](assets/img/gallery/datagathering.png)
+
+![gallery image](assets/img/gallery/csef.jpg)
+
+![gallery image](assets/img/gallery/DCsummit.png)
+
+![gallery image](assets/img/gallery/firstcomplab.jpeg)
+
+![gallery image](assets/img/gallery/image.png)
+
+![gallery image](assets/img/gallery/nationals.jpg)
+
+![gallery image](assets/img/gallery/tedtalk.jpg)
+
+![gallery image](assets/img/gallery/5k.jpg)
+
+![gallery image](assets/img/gallery/citycouncil.jpg)
+
+![gallery image](assets/img/gallery/eegdata.jpeg)
+
+![gallery image](assets/img/gallery/firstEngineering.jpg)
+
+![gallery image](assets/img/gallery/firstultraprecisetract.png)
+
+![gallery image](assets/img/gallery/synopsysAwards.jpg)
+
+![gallery image](assets/img/gallery/tractv1.jpeg)
+
+
 
