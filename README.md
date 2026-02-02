@@ -92,6 +92,42 @@ My project has a goal of making children less prone to obesity by reducing the a
 
 ## Non-Profit Work: Prabha
 
+**COMPLETE OUR PILOT PROGRAM INTEREST FORM:** [https://forms.gle/HMwgVYpdM4ZxseK3A](https://forms.gle/HMwgVYpdM4ZxseK3A)
+
+Prabha is a grassroots neurorehabilitation effort founded to address a growing yet overlooked need: accessible, affordable, and compassionate care for individuals with neurological conditions in low-income rural areas of Kerala. 
+Our mission is to  empower every individual affected by neurological conditions to reclaim independence and dignity through compassionate, accessible, and inclusive care. Through home-based care, community partnerships, and youth-led service, Prabha creates a cycle of healing that uplifts entire families—not just patients.
+
+Our work is rooted in:
+- **Local communities**: We serve people in Edappal, Ponnani, Marancheri, and surrounding towns.
+- **Student empowerment**: We empower students with supervised, real-world experience.
+- **Partnerships**: We collaborate with doctors, hospitals, and colleges to create a full ecosystem of care.
+- **Accessibility**: We reach patients at home, minimizing financial and physical burdens
+
+### Why Volunteer with Prabha?
+
+**🔶 1. Clinical Experience with Real-World Impact**
+
+At Prabha, you don’t just observe– you lead therapy. You’ll work hands-on with patients affected by complex neurological conditions, tailoring treatment plans, adapting exercises, and seeing the direct impact of your care.
+
+You’ll also learn how to adjust for unique home environments, work with limited resources, and improvise in real time– essential skills for any healthcare professional. 
+
+**🔶 2. Certified Hours and Documentation Support**
+
+Upon completing a therapy cycle (minimum 2 months/patient), your work will be reviewed and signed off by one of our accredited practitioners. You’ll receive an official certificate and letter that validates your experience in:
+
+- Neurorehabilitation, Geriatric physiotherapy, Community-based rehabilitation, patient and caregiver education, functional assessment and documentation.
+- 
+based upon your experiences. This certification can be used for your academic programs, licensing requirements, internships, and professional applications. Additionally, we will be able to provide letters of recommendation.
+
+**🔶 3. Modest Stipend for Therapy Hours**
+
+All PTs receive a stipend per active therapy hour, paid regularly during your term. This helps cover travel, time, and basic needs during your service.
+
+### Our Pilot Program
+
+As Prabha is beginning our mission of making compassionate care available to all, we hope to establish a pilot program through the summer of 2025 to prove the feasibility of our initiative. This will help us with funding and expansion for the future. For this pilot program, we hope to onboard a limited number of student physiotherapists to care for hand-selected patients. Due to the nature of this program, we will only be able to provide limited license certification. However, we will be flexible to time commitments and provide consistent stipends. More details about the operations for our pilot program will be discussed after submitting your interest [here](https://forms.gle/HMwgVYpdM4ZxseK3A).
+
+
 ## Awards
 
 **Science Fair:**
