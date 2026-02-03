@@ -1,60 +1,27 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 import { experience, awards, education } from '../../data/content';
 import './Experience.css';
 
 const Experience = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.1,
-    triggerOnce: true,
-  });
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.2,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, ease: [0.4, 0, 0.2, 1] },
-    },
-  };
-
   return (
     <section id="experience" className="experience section">
       <div className="container">
-        <motion.div
-          ref={ref}
-          variants={containerVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-        >
-          <motion.div className="section-header" variants={itemVariants}>
+        <div>
+          <div className="section-header">
             <span className="section-number">03</span>
             <h2 className="section-title">Experience & Honors</h2>
             <div className="section-line"></div>
-          </motion.div>
+          </div>
 
           <div className="experience-grid">
             {/* Experience Column */}
-            <motion.div className="experience-column" variants={itemVariants}>
+            <div className="experience-column">
               <h3 className="column-title">Professional Experience</h3>
               
               <div className="experience-list">
                 {experience.map((exp, index) => (
-                  <motion.article 
+                  <article 
                     key={index}
                     className="experience-item"
-                    whileHover={{ x: 5 }}
                   >
                     <div className="exp-header">
                       <h4 className="exp-role">{exp.role}</h4>
@@ -71,13 +38,13 @@ const Experience = () => {
                         <li key={hIndex}>{highlight}</li>
                       ))}
                     </ul>
-                  </motion.article>
+                  </article>
                 ))}
               </div>
-            </motion.div>
+            </div>
 
             {/* Awards Column */}
-            <motion.div className="awards-column" variants={itemVariants}>
+            <div className="awards-column">
               <h3 className="column-title">Distinctions & Awards</h3>
               
               <div className="awards-section">
@@ -122,11 +89,11 @@ const Experience = () => {
                   ))}
                 </ul>
               </div>
-            </motion.div>
+            </div>
           </div>
 
           {/* Education Section */}
-          <motion.div className="education-section" variants={itemVariants}>
+          <div className="education-section">
             <div className="education-header">
               <div className="edu-ornament">✦</div>
               <h3 className="education-title">Education</h3>
@@ -151,8 +118,8 @@ const Experience = () => {
                 ))}
               </div>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );

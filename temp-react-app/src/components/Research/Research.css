@@ -2,14 +2,37 @@
   position: relative;
 }
 
-.research-intro {
-  font-family: var(--font-elegant);
-  font-size: 1.3rem;
-  font-style: italic;
-  color: var(--color-graphite);
-  max-width: 700px;
-  margin-bottom: 4rem;
-  line-height: 1.8;
+/* Hero Image */
+.research-hero-image {
+  margin-bottom: 3rem;
+  max-width: 100%;
+}
+
+.tractogram-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border: 1px solid var(--color-ash);
+}
+
+.research-image-caption {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.research-image-caption .caption-line {
+  flex: 1;
+  height: 1px;
+  background: var(--color-ash);
+}
+
+.research-image-caption .caption-text {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-stone);
+  letter-spacing: 0.05em;
 }
 
 /* Projects Timeline */
@@ -302,6 +325,61 @@
   border: 1px solid var(--color-ash);
 }
 
+/* Modal Gallery */
+.modal-gallery {
+  margin-bottom: 2rem;
+}
+
+.modal-gallery h4 {
+  font-family: var(--font-elegant);
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-graphite);
+  margin: 0 0 1rem;
+}
+
+.modal-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.modal-gallery-item {
+  position: relative;
+  border: 1px solid var(--color-ash);
+  background: var(--color-ivory);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.modal-gallery-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.modal-gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-item-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.35rem 0.5rem;
+  background: rgba(250, 249, 246, 0.9);
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--color-stone);
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
 .modal-resources h4 {
   font-family: var(--font-elegant);
   font-size: 0.9rem;
@@ -377,4 +455,47 @@
   .modal-title {
     font-size: 1.75rem;
   }
+}
+
+/* Lightbox */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(26, 26, 26, 0.95);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 48px;
+  height: 48px;
+  background: transparent;
+  border: 1px solid var(--color-graphite);
+  color: var(--color-ivory);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.lightbox-close:hover {
+  background: var(--color-ivory);
+  color: var(--color-ink);
+  border-color: var(--color-ivory);
+}
+
+.lightbox-image {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border: 1px solid var(--color-charcoal);
+  cursor: default;
 }

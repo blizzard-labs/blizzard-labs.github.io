@@ -1,35 +1,11 @@
 import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
+import { AnimatePresence } from 'framer-motion';
 import { projects } from '../../data/content';
 import './Research.css';
 
 const Research = () => {
   const [selectedProject, setSelectedProject] = useState(null);
-  const [ref, inView] = useInView({
-    threshold: 0.1,
-    triggerOnce: true,
-  });
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.2,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 40 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, ease: [0.4, 0, 0.2, 1] },
-    },
-  };
+  const [lightboxImage, setLightboxImage] = useState(null);
 
   const getStatusClass = (status) => {
     switch (status) {
@@ -46,33 +22,19 @@ const Research = () => {
   return (
     <section id="research" className="research section">
       <div className="container">
-        <motion.div
-          ref={ref}
-          variants={containerVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-        >
-          <motion.div className="section-header" variants={itemVariants}>
+        <div>
+          <div className="section-header">
             <span className="section-number">02</span>
             <h2 className="section-title">Research & Projects</h2>
             <div className="section-line"></div>
-          </motion.div>
-
-          <motion.p className="research-intro" variants={itemVariants}>
-            A collection of investigations at the intersection of neuroscience, 
-            computation, and engineering — each driven by curiosity and the desire 
-            to create meaningful impact.
-          </motion.p>
+          </div>
 
           <div className="projects-timeline">
             {projects.map((project, index) => (
-              <motion.article
+              <article
                 key={project.id}
                 className="project-card"
-                variants={itemVariants}
                 onClick={() => setSelectedProject(project)}
-                whileHover={{ x: 10 }}
-                transition={{ duration: 0.2 }}
               >
                 <div className="project-year">
                   <span className="year-bracket">[</span>
@@ -104,27 +66,33 @@ const Research = () => {
                     <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="1.5"/>
                   </svg>
                 </div>
-              </motion.article>
+              </article>
             ))}
           </div>
-        </motion.div>
+
+          <div className="research-hero-image">
+            <img 
+              src="/assets/img/tractogram3.png" 
+              alt="Tractogram visualization"
+              className="tractogram-image"
+            />
+            <div className="research-image-caption">
+              <span className="caption-line"></span>
+              <span className="caption-text">Fig. 2</span>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Project Modal */}
       <AnimatePresence>
         {selectedProject && (
-          <motion.div
+          <div
             className="project-modal-overlay"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
             onClick={() => setSelectedProject(null)}
           >
-            <motion.div
+            <div
               className="project-modal"
-              initial={{ opacity: 0, y: 50, scale: 0.95 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: 50, scale: 0.95 }}
               onClick={(e) => e.stopPropagation()}
             >
               <button 
@@ -169,6 +137,27 @@ const Research = () => {
                 ))}
               </div>
 
+              {selectedProject.images && selectedProject.images.length > 0 && (
+                <div className="modal-gallery">
+                  <h4>Project Gallery</h4>
+                  <div className="modal-gallery-grid">
+                    {selectedProject.images.map((image, index) => (
+                      <div 
+                        key={index} 
+                        className="modal-gallery-item"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setLightboxImage(image);
+                        }}
+                      >
+                        <img src={image.src} alt={image.alt} />
+                        <span className="gallery-item-caption">Fig. {index + 1}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               <div className="modal-resources">
                 <h4>Resources</h4>
                 <div className="resources-list">
@@ -191,10 +180,33 @@ const Research = () => {
                   ))}
                 </div>
               </div>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
         )}
       </AnimatePresence>
+
+      {/* Image Lightbox */}
+      {lightboxImage && (
+        <div 
+          className="lightbox-overlay"
+          onClick={() => setLightboxImage(null)}
+        >
+          <button 
+            className="lightbox-close"
+            onClick={() => setLightboxImage(null)}
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" strokeWidth="1.5"/>
+            </svg>
+          </button>
+          <img 
+            src={lightboxImage.src} 
+            alt={lightboxImage.alt}
+            className="lightbox-image"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </section>
   );
 };

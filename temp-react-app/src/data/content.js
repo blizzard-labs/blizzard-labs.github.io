@@ -40,7 +40,12 @@ export const projects = [
     title: "ReconBench",
     subtitle: "A Phylogenetic MCMC Benchmark",
     status: "PUBLISHED",
-    description: "A comprehensive evaluation framework for Historian, enabling rigorous testing across a wide range of phylogenetic conditions. Using INDELible to simulate evolutionary histories, we generated biologically-derived datasets spanning the four major SCOP protein types.",
+    description: "Developed at the Holmes Lab, UC Berkeley. A comprehensive evaluation framework for Historian, enabling rigorous testing across a wide range of phylogenetic conditions. Using INDELible to simulate evolutionary histories, we generated biologically-derived datasets spanning the four major SCOP protein types.",
+    images: [
+      { src: "/assets/img/projects/ReconBench/corr.png", alt: "Correlation analysis" },
+      { src: "/assets/img/projects/ReconBench/param.png", alt: "Parameter analysis" },
+      { src: "/assets/img/projects/ReconBench/tree.png", alt: "Phylogenetic tree" }
+    ],
     resources: [
       { label: "Publication", url: "#", note: "Forthcoming, Oxford Press" },
       { label: "Github Repo", url: "https://github.com/blizzard-labs/phylo-mcmc-evaluation" },
@@ -56,6 +61,11 @@ export const projects = [
     subtitle: "Your DIY Home Improvement Partner",
     status: "STARTUP",
     description: "An app enabling users to create customized home improvement projects with curated materials and instructions. Features Benji, an AI assistant for design customization, and partnerships with local hardware suppliers.",
+    images: [
+      { src: "/assets/img/projects/HomeBuilt/logo.png", alt: "HomeBuilt logo" },
+      { src: "/assets/img/projects/HomeBuilt/app.png", alt: "HomeBuilt app" },
+      { src: "/assets/img/projects/HomeBuilt/instructions.png", alt: "Project instructions" }
+    ],
     resources: [
       { label: "Launch Writeup", url: "https://drive.google.com/file/d/1K063vRwWWBMYVAiNsq_a-sU5c8eeiPUm/preview" },
       { label: "Video Pitch", url: "https://youtu.be/yTSA3R-rAMo" },
@@ -70,6 +80,11 @@ export const projects = [
     subtitle: "Optimizing Spiking Neural Networks with Dynamic Saddle Distributions",
     status: "PREPRINT",
     description: "Addresses energy efficiency challenges in neural network clustering by mathematically investigating SNN learning behavior with dynamical systems theory. Introduces variable plasticity and triangulated attribution algorithms maintaining optimal learning conditions at the edge of chaos.",
+    images: [
+      { src: "/assets/img/projects/MesoNet/lyapunov.png", alt: "Lyapunov analysis" },
+      { src: "/assets/img/projects/MesoNet/turing.png", alt: "Turing pattern" },
+      { src: "/assets/img/projects/MesoNet/unsup.png", alt: "Unsupervised learning" }
+    ],
     resources: [
       { label: "Preprint", url: "https://doi.org/10.5281/zenodo.17771306" },
       { label: "Github Repo", url: "https://github.com/blizzard-labs/NMCtests" },
@@ -85,6 +100,11 @@ export const projects = [
     subtitle: "A Density-Aware Streamline Exclusion System for Accurate White Matter Reconstruction",
     status: "COMPLETED",
     description: "Resolves bottleneck issues in white matter tractography through a three-part pipeline utilizing a novel nerve-density-analysis architecture. Achieved 94.52% recall and 72.83% precision—216.15% higher precision than current state-of-the-art pipelines.",
+    images: [
+      { src: "/assets/img/projects/TractX/bottlneck.png", alt: "TractX visualization 1" },
+      { src: "/assets/img/projects/TractX/corr.png", alt: "TractX visualization 2" },
+      { src: "/assets/img/projects/TractX/tract.png", alt: "TractX visualization 3" }
+    ],
     resources: [
       { label: "Github Repo", url: "https://github.com/blizzard-labs/tractx-no-maps" },
       { label: "Poster Presentation", url: "https://drive.google.com/file/d/1msfSQkJJBQ3r8podPtQThE3YrCb9IFjb/preview" }
@@ -94,10 +114,15 @@ export const projects = [
   {
     id: "balancerator",
     year: 2023,
-    title: "Balancerator",
+    title: "The Balancerator",
     subtitle: "A Wearable for Active Prevention of Falls Through GRU-based Gyroscopic Inference",
     status: "TO BE PATENTED",
     description: "An Arduino-controlled wearable manipulating the user's center of mass with weights based upon inclination captured by gyroscope. Uses Kalman filtration with Gaussian Motion and a GRU neural network for classification. Achieved 70.5% lower fall rate.",
+    images: [
+      { src: "/assets/img/projects/Balancerator/structure.png", alt: "Balancerator structure" },
+      { src: "/assets/img/projects/Balancerator/pinout.png", alt: "Arduino pinout" },
+      { src: "/assets/img/projects/Balancerator/weight.png", alt: "Weight mechanism" }
+    ],
     resources: [
       { label: "Project Spotlight", url: "https://www.societyforscience.org/jic/2023-student-finalists/krishna-bhatt/" },
       { label: "Video Presentation", url: "https://youtu.be/ve8pqWtbBm0" },
@@ -109,10 +134,14 @@ export const projects = [
   {
     id: "cookie-dispenser",
     year: 2022,
-    title: "Cookie Dispenser",
+    title: "The Cookie Dispenser",
     subtitle: "A Device to Limit Obesity",
     status: "COMPLETED",
     description: "A child-friendly cookie dispenser that dispenses one cookie daily, controlled via Bluetooth and smartphone application. Designed to help reduce childhood obesity rates.",
+    images: [
+      { src: "/assets/img/projects/CookieDispenser/image.png", alt: "Cookie Dispenser device" },
+      { src: "/assets/img/projects/CookieDispenser/app.png", alt: "Cookie Dispenser app" }
+    ],
     resources: [
       { label: "Project Poster", url: "https://drive.google.com/file/d/1H4tsudnYg4-o26NanthVHXAIR48T0lyM/preview" },
       { label: "Project Video", url: "https://youtu.be/uDxKYNIIAQ0" }

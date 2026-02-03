@@ -13,7 +13,6 @@ const Navigation = () => {
     { id: 'experience', label: 'Experience' },
     { id: 'prabha', label: 'Prabha' },
     { id: 'gallery', label: 'Gallery' },
-    { id: 'contact', label: 'Contact' },
   ];
 
   useEffect(() => {
@@ -59,9 +58,9 @@ const Navigation = () => {
             whileHover={{ scale: 1.02 }}
             onClick={() => scrollToSection('about')}
           >
-            <span className="logo-text">K</span>
-            <span className="logo-dot">.</span>
-            <span className="logo-text">Bhatt</span>
+            <span className="logo-text">Project</span>
+            <span className="logo-dot"> </span>
+            <span className="logo-text">Portfolio</span>
           </motion.div>
 
           <div className="nav-items">

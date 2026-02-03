@@ -1,45 +1,13 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 import { readings, personalInfo } from '../../data/content';
 import './Contact.css';
 
 const Contact = () => {
-  const [ref, inView] = useInView({
-    threshold: 0.1,
-    triggerOnce: true,
-  });
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.2,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, ease: [0.4, 0, 0.2, 1] },
-    },
-  };
-
   return (
     <section id="contact" className="contact section">
       <div className="container">
-        <motion.div
-          ref={ref}
-          variants={containerVariants}
-          initial="hidden"
-          animate={inView ? "visible" : "hidden"}
-        >
+        <div>
           {/* Readings Section */}
-          <motion.div className="readings-section" variants={itemVariants}>
+          <div className="readings-section">
             <div className="readings-header">
               <span className="readings-ornament">❧</span>
               <h3 className="readings-title">Current Reading List</h3>
@@ -47,13 +15,12 @@ const Contact = () => {
             </div>
             <div className="readings-list">
               {readings.map((book, index) => (
-                <motion.a
+                <a
                   key={index}
                   href={book.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="reading-item"
-                  whileHover={{ x: 10 }}
                 >
                   <span className="reading-number">{index + 1}.</span>
                   <div className="reading-content">
@@ -64,13 +31,13 @@ const Contact = () => {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="reading-arrow">
                     <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="1.5"/>
                   </svg>
-                </motion.a>
+                </a>
               ))}
             </div>
-          </motion.div>
+          </div>
 
           {/* Contact Section */}
-          <motion.div className="contact-content" variants={itemVariants}>
+          <div className="contact-content">
             <div className="contact-header">
               <div className="section-header">
                 <span className="section-number">06</span>
@@ -121,8 +88,8 @@ const Contact = () => {
                 </blockquote>
               </div>
             </div>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
     </section>
   );
