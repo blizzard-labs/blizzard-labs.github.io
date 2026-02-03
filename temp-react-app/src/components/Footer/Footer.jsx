@@ -27,15 +27,15 @@ const Footer = () => {
             <nav className="footer-nav">
               <a href="#about">About</a>
               <a href="#research">Research</a>
-              <a href="#experience">Experience</a>
               <a href="#prabha">Prabha</a>
+              <a href="#experience">Experience</a>
               <a href="#gallery">Gallery</a>
             </nav>
           </div>
 
           <div className="footer-bottom">
             <p className="copyright">
-              © {currentYear} Krishna Bhatt. Crafted with curiosity.
+              © {currentYear} Krishna Bhatt. Hosted on my personal workstation.
             </p>
             <p className="footer-latin">
               <em>Per aspera ad astra</em>

@@ -1,4 +1,5 @@
 .prabha {
+  background: var(--color-cream);
   position: relative;
   overflow: hidden;
 }
@@ -68,6 +69,97 @@
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.8;
+}
+
+/* Intro Row with Logo */
+.prabha-intro-row {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.prabha-logo-wrapper {
+  flex-shrink: 0;
+}
+
+.prabha-logo-frame {
+  position: relative;
+  padding: 1rem;
+  background: var(--color-ivory);
+  border: 1px solid var(--color-ash);
+  width: 300px;
+}
+
+.prabha-logo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.prabha-logo-caption {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.prabha-logo-caption .caption-line {
+  flex: 1;
+  height: 1px;
+  background: var(--color-ash);
+}
+
+.prabha-logo-caption .caption-text {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-stone);
+  letter-spacing: 0.05em;
+}
+
+.prabha-logo-frame .image-corner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--color-stone);
+}
+
+.prabha-logo-frame .image-corner.top-left {
+  top: -5px;
+  left: -5px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.prabha-logo-frame .image-corner.top-right {
+  top: -5px;
+  right: -5px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.prabha-logo-frame .image-corner.bottom-left {
+  bottom: -5px;
+  left: -5px;
+  border-right: none;
+  border-top: none;
+}
+
+.prabha-logo-frame .image-corner.bottom-right {
+  bottom: -5px;
+  right: -5px;
+  border-left: none;
+  border-top: none;
+}
+
+.prabha-intro-row .prabha-description {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: var(--color-charcoal);
+  margin: 0;
+  text-align: left;
+  flex: 1;
 }
 
 .prabha-description {
@@ -234,6 +326,15 @@
   .values-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  
+  .prabha-intro-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .prabha-intro-row .prabha-description {
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
@@ -251,5 +352,9 @@
   
   .cta-title {
     font-size: 1.5rem;
+  }
+  
+  .prabha-logo-frame {
+    width: 200px;
   }
 }

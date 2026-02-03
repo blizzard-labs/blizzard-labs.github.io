@@ -24,8 +24,8 @@ function App() {
           <main>
             <About />
             <Research />
-            <Experience />
             <Prabha />
+            <Experience />
             <Gallery />
             <Readings />
           </main>

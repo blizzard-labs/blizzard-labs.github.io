@@ -227,7 +227,7 @@ export const prabha = {
   name: "Prabha",
   tagline: "Grassroots Neurorehabilitation Initiative",
   mission: "Empower every individual affected by neurological conditions to reclaim independence and dignity through compassionate, accessible, and inclusive care.",
-  description: "A grassroots neurorehabilitation effort founded to address accessible, affordable, and compassionate care for individuals with neurological conditions in low-income rural areas of Kerala.",
+  description: "A grassroots neurorehabilitation effort founded to address accessible, affordable, and compassionate care for individuals with neurological conditions in low-income rural areas of Kerala.\n\n Our mission is to  empower every individual affected by neurological conditions to reclaim independence and dignity through compassionate, accessible, and inclusive care. Through home-based care, community partnerships, and youth-led service, Prabha creates a cycle of healing that uplifts entire families—not just patients.",
   interestForm: "https://forms.gle/HMwgVYpdM4ZxseK3A",
   values: [
     { title: "Local Communities", description: "Serving Edappal, Ponnani, Marancheri, and surrounding towns" },
