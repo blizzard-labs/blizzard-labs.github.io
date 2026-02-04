@@ -289,7 +289,13 @@ export const galleryImages = [
   { src: "/assets/img/gallery/citycouncil.jpg", alt: "City Council" },
   { src: "/assets/img/gallery/eegdata.jpeg", alt: "EEG Data" },
   { src: "/assets/img/gallery/firstEngineering.jpg", alt: "First Engineering" },
+  { src: "/assets/img/gallery/firstpodium.jpg", alt: "First Podium" },
   { src: "/assets/img/gallery/firstultraprecisetract.png", alt: "First ultra precise tract" },
   { src: "/assets/img/gallery/synopsysAwards.jpg", alt: "Synopsys Awards" },
-  { src: "/assets/img/gallery/tractv1.jpeg", alt: "Tract v1" }
+  { src: "/assets/img/gallery/tractv1.jpeg", alt: "Tract v1" },
+  { src: "/assets/img/gallery/congress.jpg", alt: "Congress Advocacy" },
+  { src: "/assets/img/gallery/challenge.jpg", alt: "Thermo Fisher JIC" },
+  { src: "/assets/img/gallery/archery.jpg", alt: "Archery in Maranchery" },
+  { src: "/assets/img/gallery/sonomawalk.jpg", alt: "Sonoma Raceway" },
+  { src: "/assets/img/gallery/zoom.jpeg", alt: "First karting session" },
 ];
