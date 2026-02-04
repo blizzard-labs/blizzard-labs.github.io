@@ -35,10 +35,10 @@ const Footer = () => {
 
           <div className="footer-bottom">
             <p className="copyright">
-              © {currentYear} Krishna Bhatt. Hosted on my personal workstation.
+              © {currentYear} Krishna Bhatt.
             </p>
             <p className="footer-latin">
-              <em>Per aspera ad astra</em>
+              <em>यत भावो-तत भवति।</em>
             </p>
           </div>
         </div>
